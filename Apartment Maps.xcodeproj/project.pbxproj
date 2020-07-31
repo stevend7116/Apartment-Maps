@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		9C50DFC924D3D4C100A393D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFC824D3D4C100A393D5 /* AppDelegate.swift */; };
 		9C50DFCB24D3D4C100A393D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFCA24D3D4C100A393D5 /* SceneDelegate.swift */; };
-		9C50DFCD24D3D4C100A393D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFCC24D3D4C100A393D5 /* ViewController.swift */; };
+		9C50DFCD24D3D4C100A393D5 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFCC24D3D4C100A393D5 /* TableVC.swift */; };
 		9C50DFD024D3D4C100A393D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50DFCE24D3D4C100A393D5 /* Main.storyboard */; };
 		9C50DFD224D3D4C200A393D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C50DFD124D3D4C200A393D5 /* Assets.xcassets */; };
 		9C50DFD524D3D4C200A393D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C50DFD324D3D4C200A393D5 /* LaunchScreen.storyboard */; };
+		9C50DFE024D3D5A900A393D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFDF24D3D5A900A393D5 /* Constants.swift */; };
+		9C50DFE224D3D64F00A393D5 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFE124D3D64F00A393D5 /* Map.swift */; };
+		9C50DFE424D3D97500A393D5 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFE324D3D97500A393D5 /* MapTableViewCell.swift */; };
+		9C50DFE624D3E5FB00A393D5 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFE524D3E5FB00A393D5 /* MapVC.swift */; };
+		9C50DFE824D3F15D00A393D5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C50DFE724D3F15D00A393D5 /* InfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C50DFC524D3D4C100A393D5 /* Apartment Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apartment Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C50DFC824D3D4C100A393D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C50DFCA24D3D4C100A393D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C50DFCC24D3D4C100A393D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C50DFCC24D3D4C100A393D5 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 		9C50DFCF24D3D4C100A393D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C50DFD124D3D4C200A393D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C50DFD424D3D4C200A393D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C50DFD624D3D4C200A393D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C50DFDF24D3D5A900A393D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C50DFE124D3D64F00A393D5 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		9C50DFE324D3D97500A393D5 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		9C50DFE524D3E5FB00A393D5 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		9C50DFE724D3F15D00A393D5 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,42 @@
 			children = (
 				9C50DFC824D3D4C100A393D5 /* AppDelegate.swift */,
 				9C50DFCA24D3D4C100A393D5 /* SceneDelegate.swift */,
-				9C50DFCC24D3D4C100A393D5 /* ViewController.swift */,
+				9C50DFDC24D3D50400A393D5 /* Model */,
+				9C50DFDD24D3D52200A393D5 /* Views */,
+				9C50DFDE24D3D53000A393D5 /* Controllers */,
 				9C50DFCE24D3D4C100A393D5 /* Main.storyboard */,
 				9C50DFD124D3D4C200A393D5 /* Assets.xcassets */,
 				9C50DFD324D3D4C200A393D5 /* LaunchScreen.storyboard */,
 				9C50DFD624D3D4C200A393D5 /* Info.plist */,
 			);
 			path = "Apartment Maps";
+			sourceTree = "<group>";
+		};
+		9C50DFDC24D3D50400A393D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C50DFDF24D3D5A900A393D5 /* Constants.swift */,
+				9C50DFE124D3D64F00A393D5 /* Map.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C50DFDD24D3D52200A393D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C50DFE324D3D97500A393D5 /* MapTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9C50DFDE24D3D53000A393D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C50DFCC24D3D4C100A393D5 /* TableVC.swift */,
+				9C50DFE524D3E5FB00A393D5 /* MapVC.swift */,
+				9C50DFE724D3F15D00A393D5 /* InfoVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C50DFCD24D3D4C100A393D5 /* ViewController.swift in Sources */,
+				9C50DFE224D3D64F00A393D5 /* Map.swift in Sources */,
+				9C50DFCD24D3D4C100A393D5 /* TableVC.swift in Sources */,
+				9C50DFE424D3D97500A393D5 /* MapTableViewCell.swift in Sources */,
 				9C50DFC924D3D4C100A393D5 /* AppDelegate.swift in Sources */,
+				9C50DFE824D3F15D00A393D5 /* InfoVC.swift in Sources */,
+				9C50DFE624D3E5FB00A393D5 /* MapVC.swift in Sources */,
 				9C50DFCB24D3D4C100A393D5 /* SceneDelegate.swift in Sources */,
+				9C50DFE024D3D5A900A393D5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
