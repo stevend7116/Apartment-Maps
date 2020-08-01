@@ -40,7 +40,7 @@
                                                 <constraint firstItem="QMz-Cz-oFV" firstAttribute="top" secondItem="YC9-w6-lJs" secondAttribute="topMargin" constant="5" id="zEv-c3-QoK"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="0.79874785958904104" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="labelView" destination="QMz-Cz-oFV" id="zGA-7K-gI3"/>
                                         </connections>
@@ -48,7 +48,7 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.89726027397260277" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RJo-bF-Gc6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="53v-D9-uKf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RJo-bF-Gc6" secondAttribute="bottom" id="5jt-bS-NN9"/>
@@ -96,7 +96,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="d5l-p8-9yN"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.90303938356164382" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2gn-yg-IPF" firstAttribute="top" secondItem="C4B-lS-uCe" secondAttribute="top" id="ECc-5P-mSg"/>
                             <constraint firstItem="2gn-yg-IPF" firstAttribute="leading" secondItem="C4B-lS-uCe" secondAttribute="leading" id="LtM-PU-0Yc"/>
@@ -137,7 +137,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.9001765839041096" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="OhZ-ry-qao" firstAttribute="trailing" secondItem="kQg-Ag-o7o" secondAttribute="trailing" id="ERL-xV-OYS"/>
                             <constraint firstItem="OhZ-ry-qao" firstAttribute="bottom" secondItem="kQg-Ag-o7o" secondAttribute="bottom" id="MKQ-lF-h7T"/>

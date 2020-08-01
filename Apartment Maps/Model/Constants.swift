@@ -8,6 +8,9 @@
 
 import Foundation
 
+/*
+    The first three variables list apartment names, image names (without ".jpg"), and descriptions that are the heart of the model. The first apartment name should correspond to the first image name and description and so forth down the line. While a check is done in code to ensure the count of these 3 arrays are equal, this check can only be done humanly here.
+ */
 let aptNames = ["Civic Center Apartments",
                 "Hamilton Apartments",
                 "Savannah Creek Apartments"]
@@ -22,8 +25,11 @@ let aptDescs = ["Gate code: #4999. These apartments were completed in two phases
                 
                 "The trick to these apartments is knowing which side to go to and for those that are curious how high you have to go. All buildings are three story. The side is listed on the map for the six apartments that face that side. Of those the bottom two numbers are on the first floor. The middle two are second floor. The last two mean you're in for a climb. ;)"]
 
-
+// Constants to avoid typing strings into the app. This ensures that the UI can catch typos. Of course there might be typos here...
 let appTitle = "Apartment Maps"
+// Reuse ID for UITableViewCell.
 let cellConstant = "Cell"
+// ID for segue from TableVC to MapVC.
 let mapSegueConstant = "mapSegue"
+// ID for segue from MapVC to InfoVC.
 let infoSegueConstant = "infoSegue"
